@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container{
+  max-width: 1000px;  
+  margin: 0 auto;
+}
+.wrapper{
+  gap: 30px;
+  padding: 30px;
+  background-color: rgb(183, 190, 202);
+  border-radius: 25px;
+  
+}
+.heading{
+  color: red;
+
+}
+.text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.img{
+  width: 100%;
+}
+#btn{
+  border: none;
+  color:blue;
+  background-color: rgb(183, 190, 202);
+  cursor: pointer;
+}
+.modal-btn{
+   display: flex;
+  width: 1000px;
+  height: 1000px;
+  background-color: rgb(112, 121, 121);
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  flex-direction: column;
+  display: none;
+
+}
+.modal-btn > input, button{
+  width: 70%;
+  height: 70px;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: larger;
+}
